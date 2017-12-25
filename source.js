@@ -1,7 +1,9 @@
-export const app = {
-    lala : 34
-}
-
-export const koko = {
-    la : 1100
+module.exports = {
+  getOne: function() {
+    return new Promise((resolve, reject) => {
+      fetch('http://api.icndb.com/jokes/random').then(res => res.json).then(data => {
+        resolve(data.value.joke)
+      })
+    })
+  }
 }

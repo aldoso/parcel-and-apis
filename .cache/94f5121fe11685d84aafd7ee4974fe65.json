@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"module.exports={getOne:function(){return new Promise((e,n)=>{fetch(\"http://api.icndb.com/jokes/random\").then(e=>e.json).then(n=>{e(n.value.joke)})})}};"},"hash":"18eda26a307c13d748398298dc1aba79"}

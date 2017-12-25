@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./source","loc":{"line":1,"column":22}}],"generated":{"js":"const e=require(\"./source\");e.getOne().then(e=>{document.querySelector(\"main\").innerHTML=e});"},"hash":"4fe77e8e1f5fbf5498177d0f4c003696"}

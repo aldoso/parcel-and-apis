@@ -1,4 +1,5 @@
-import {app, koko} from './source'
+const jokes = require('./source')
 
-console.log(app.lala)
-document.querySelector('main').innerHTML = koko.la
+jokes.getOne().then(joke => {
+  document.querySelector('main').innerHTML = joke;
+})
